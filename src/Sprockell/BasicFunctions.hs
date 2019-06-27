@@ -15,11 +15,11 @@ regSP         = regbankSize                          -- register for stack point
 regPC         = regbankSize + 1                      -- register for program counter
 
 -- defines the number of registers excluding the stack pointer & program counter
-regbankSize   =  8   :: Int
-localMemSize  = 32   :: Int
+regbankSize   =   8   :: Int
+localMemSize  = 512   :: Int
 
-shMemSize     =  8   :: Int
-channelDelay  =  4   :: Int
+shMemSize     =   8   :: Int
+channelDelay  =   4   :: Int
 
 
 intBool True  = 1                                    -- Bool-to-Int
